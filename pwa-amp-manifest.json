@@ -1,0 +1,23 @@
+{			  
+			"name": "Hoops College",
+			"short_name": "Hoops College",
+			"description": "Using basketball, we educate to develop and expose greatness. #myproces #hoopscollege",
+			"icons": [
+			    {
+			      "src": "https://hoopscollege.com/wp-content/uploads/2018/12/logo.png",
+			      "sizes": "192x192",
+			      "type": "image\/png"
+			    },
+			    {
+			      "src": "https://hoopscollege.com/wp-content/uploads/2018/12/hclogo.png",
+			      "sizes": "512x512",
+			      "type": "image\/png"
+			    }
+			],
+			"background_color": "#D5E0EB",
+			"theme_color": "#D5E0EB",
+			"display": "standalone",
+			"orientation": "portrait",
+			"start_url": "https://hoopscollege.com/?amp/",
+			"scope": "https://hoopscollege.com/?amp/"
+		}

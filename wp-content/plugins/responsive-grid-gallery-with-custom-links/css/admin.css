@@ -1,0 +1,23 @@
+
+/*== ITEM ORDER =============================== */
+.wrapSort { margin: 15px 0 0 0; }
+td.column-order img { display: block; cursor: pointer; padding: 18px 18px; }
+td.column-photo img { display: block; cursor: pointer; }
+.sortable-list { background-color: #C0C0C0; list-style: none; margin: 0; min-height: 60px; padding: 5px; }
+.sortable-item { background-color: #FFFFFF; border: 1px solid #333333; cursor: move; display: block; margin-bottom: 5px; padding: 10px 20px 10px 20px; text-align: left; }
+.sortPlaceholder { background-color: #BFB; border: 1px dashed #666; height: 48px; margin-bottom: 5px; }
+.ui-sortable-helper{  border: 1px dashed #666; }
+ul#ulSortColl li:last-child{ margin-bottom: 0; }
+
+/*== 2 inputs in a single row abcfl_ =========================================== */
+.abcflGridRow { clear: both; padding: 0px;margin: 0px; }
+.abcflGridCol { display: block; float: left; width: 100%; box-sizing: border-box; }
+
+@media (min-width: 768px) {
+.abcflGridCol_2 { width: 50% }
+.abcflGridCol_2_of_3 { width: 66.66%; }
+.abcflGridCol_1_of_3 { width: 33.33%; }
+}
+
+.abcflGridGroup:before, .abcflGridGroup:after { content:""; display:table; }
+.abcflGridGroup:after { clear:both;}

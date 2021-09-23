@@ -1,0 +1,574 @@
+
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+	# Ban Hosts - Security > Settings > Banned Users
+	SetEnvIF REMOTE_ADDR "^66\.249\.69\.8$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^66\.249\.69\.8$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^66\.249\.69\.8$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^184\.154\.139\.21$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^184\.154\.139\.21$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^184\.154\.139\.21$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^184\.154\.139\.19$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^184\.154\.139\.19$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^184\.154\.139\.19$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^66\.249\.69\.20$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^66\.249\.69\.20$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^66\.249\.69\.20$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^184\.154\.139\.18$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^184\.154\.139\.18$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^184\.154\.139\.18$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^199\.47\.87\.142$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^199\.47\.87\.142$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^199\.47\.87\.142$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^66\.249\.70\.5$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^66\.249\.70\.5$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^66\.249\.70\.5$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^184\.154\.139\.20$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^184\.154\.139\.20$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^184\.154\.139\.20$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^134\.249\.116\.143$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^134\.249\.116\.143$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^134\.249\.116\.143$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^195\.201\.33\.105$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^195\.201\.33\.105$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^195\.201\.33\.105$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^95\.216\.21\.111$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^95\.216\.21\.111$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^95\.216\.21\.111$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^173\.249\.2\.90$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^173\.249\.2\.90$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^173\.249\.2\.90$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^184\.154\.139\.17$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^184\.154\.139\.17$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^184\.154\.139\.17$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^144\.76\.38\.40$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^144\.76\.38\.40$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^144\.76\.38\.40$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^108\.59\.8\.80$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^108\.59\.8\.80$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^108\.59\.8\.80$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^207\.46\.13\.3$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^207\.46\.13\.3$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^207\.46\.13\.3$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^157\.55\.39\.98$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^157\.55\.39\.98$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^157\.55\.39\.98$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^207\.46\.13\.110$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^207\.46\.13\.110$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^207\.46\.13\.110$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^157\.55\.39\.34$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^157\.55\.39\.34$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^157\.55\.39\.34$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^158\.69\.254\.103$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^158\.69\.254\.103$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^158\.69\.254\.103$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^195\.201\.33\.202$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^195\.201\.33\.202$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^195\.201\.33\.202$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^207\.46\.13\.20$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^207\.46\.13\.20$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^207\.46\.13\.20$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^207\.46\.13\.21$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^207\.46\.13\.21$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^207\.46\.13\.21$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^157\.55\.39\.226$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^157\.55\.39\.226$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^157\.55\.39\.226$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^207\.46\.13\.33$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^207\.46\.13\.33$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^207\.46\.13\.33$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^192\.151\.157\.210$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^192\.151\.157\.210$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^192\.151\.157\.210$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^144\.76\.118\.82$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^144\.76\.118\.82$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^144\.76\.118\.82$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^46\.4\.63\.250$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^46\.4\.63\.250$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^46\.4\.63\.250$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^78\.46\.61\.245$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^78\.46\.61\.245$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^78\.46\.61\.245$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^148\.251\.244\.137$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^148\.251\.244\.137$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^148\.251\.244\.137$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^212\.86\.108\.73$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^212\.86\.108\.73$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^212\.86\.108\.73$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^95\.216\.11\.34$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^95\.216\.11\.34$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^95\.216\.11\.34$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^95\.216\.0\.38$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^95\.216\.0\.38$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^95\.216\.0\.38$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^95\.216\.11\.233$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^95\.216\.11\.233$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^95\.216\.11\.233$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^148\.251\.9\.145$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^148\.251\.9\.145$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^148\.251\.9\.145$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^5\.9\.156\.20$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^5\.9\.156\.20$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^5\.9\.156\.20$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^212\.92\.123\.65$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^212\.92\.123\.65$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^212\.92\.123\.65$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^94\.248\.146\.19$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^94\.248\.146\.19$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^94\.248\.146\.19$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^5\.9\.100\.40$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^5\.9\.100\.40$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^5\.9\.100\.40$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^69\.30\.213\.202$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^69\.30\.213\.202$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^69\.30\.213\.202$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^148\.251\.195\.14$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^148\.251\.195\.14$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^148\.251\.195\.14$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^173\.208\.206\.50$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^173\.208\.206\.50$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^173\.208\.206\.50$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^116\.203\.43\.157$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^116\.203\.43\.157$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^116\.203\.43\.157$" DenyAccess
+
+	<IfModule mod_authz_core.c>
+		<RequireAll>
+			Require all granted
+			Require not env DenyAccess
+			Require not ip 66.249.69.8
+			Require not ip 184.154.139.21
+			Require not ip 184.154.139.19
+			Require not ip 66.249.69.20
+			Require not ip 184.154.139.18
+			Require not ip 199.47.87.142
+			Require not ip 66.249.70.5
+			Require not ip 184.154.139.20
+			Require not ip 134.249.116.143
+			Require not ip 195.201.33.105
+			Require not ip 95.216.21.111
+			Require not ip 173.249.2.90
+			Require not ip 184.154.139.17
+			Require not ip 144.76.38.40
+			Require not ip 108.59.8.80
+			Require not ip 207.46.13.3
+			Require not ip 157.55.39.98
+			Require not ip 207.46.13.110
+			Require not ip 157.55.39.34
+			Require not ip 158.69.254.103
+			Require not ip 195.201.33.202
+			Require not ip 207.46.13.20
+			Require not ip 207.46.13.21
+			Require not ip 157.55.39.226
+			Require not ip 207.46.13.33
+			Require not ip 192.151.157.210
+			Require not ip 144.76.118.82
+			Require not ip 46.4.63.250
+			Require not ip 78.46.61.245
+			Require not ip 148.251.244.137
+			Require not ip 212.86.108.73
+			Require not ip 95.216.11.34
+			Require not ip 95.216.0.38
+			Require not ip 95.216.11.233
+			Require not ip 148.251.9.145
+			Require not ip 5.9.156.20
+			Require not ip 212.92.123.65
+			Require not ip 94.248.146.19
+			Require not ip 5.9.100.40
+			Require not ip 69.30.213.202
+			Require not ip 148.251.195.14
+			Require not ip 173.208.206.50
+			Require not ip 116.203.43.157
+		</RequireAll>
+	</IfModule>
+	<IfModule !mod_authz_core.c>
+		Order allow,deny
+		Allow from all
+		Deny from env=DenyAccess
+		Deny from 66.249.69.8
+		Deny from 184.154.139.21
+		Deny from 184.154.139.19
+		Deny from 66.249.69.20
+		Deny from 184.154.139.18
+		Deny from 199.47.87.142
+		Deny from 66.249.70.5
+		Deny from 184.154.139.20
+		Deny from 134.249.116.143
+		Deny from 195.201.33.105
+		Deny from 95.216.21.111
+		Deny from 173.249.2.90
+		Deny from 184.154.139.17
+		Deny from 144.76.38.40
+		Deny from 108.59.8.80
+		Deny from 207.46.13.3
+		Deny from 157.55.39.98
+		Deny from 207.46.13.110
+		Deny from 157.55.39.34
+		Deny from 158.69.254.103
+		Deny from 195.201.33.202
+		Deny from 207.46.13.20
+		Deny from 207.46.13.21
+		Deny from 157.55.39.226
+		Deny from 207.46.13.33
+		Deny from 192.151.157.210
+		Deny from 144.76.118.82
+		Deny from 46.4.63.250
+		Deny from 78.46.61.245
+		Deny from 148.251.244.137
+		Deny from 212.86.108.73
+		Deny from 95.216.11.34
+		Deny from 95.216.0.38
+		Deny from 95.216.11.233
+		Deny from 148.251.9.145
+		Deny from 5.9.156.20
+		Deny from 212.92.123.65
+		Deny from 94.248.146.19
+		Deny from 5.9.100.40
+		Deny from 69.30.213.202
+		Deny from 148.251.195.14
+		Deny from 173.208.206.50
+		Deny from 116.203.43.157
+	</IfModule>
+
+	# Protect System Files - Security > Settings > System Tweaks > System Files
+	<files .htaccess>
+		<IfModule mod_authz_core.c>
+			Require all denied
+		</IfModule>
+		<IfModule !mod_authz_core.c>
+			Order allow,deny
+			Deny from all
+		</IfModule>
+	</files>
+	<files readme.html>
+		<IfModule mod_authz_core.c>
+			Require all denied
+		</IfModule>
+		<IfModule !mod_authz_core.c>
+			Order allow,deny
+			Deny from all
+		</IfModule>
+	</files>
+	<files readme.txt>
+		<IfModule mod_authz_core.c>
+			Require all denied
+		</IfModule>
+		<IfModule !mod_authz_core.c>
+			Order allow,deny
+			Deny from all
+		</IfModule>
+	</files>
+	<files wp-config.php>
+		<IfModule mod_authz_core.c>
+			Require all denied
+		</IfModule>
+		<IfModule !mod_authz_core.c>
+			Order allow,deny
+			Deny from all
+		</IfModule>
+	</files>
+
+	# Disable Directory Browsing - Security > Settings > System Tweaks > Directory Browsing
+	Options -Indexes
+
+	<IfModule mod_rewrite.c>
+		RewriteEngine On
+
+		# Protect System Files - Security > Settings > System Tweaks > System Files
+		RewriteRule ^wp-admin/install\.php$ - [F]
+		RewriteRule ^wp-admin/includes/ - [F]
+		RewriteRule !^wp-includes/ - [S=3]
+		RewriteRule ^wp-includes/[^/]+\.php$ - [F]
+		RewriteRule ^wp-includes/js/tinymce/langs/.+\.php - [F]
+		RewriteRule ^wp-includes/theme-compat/ - [F]
+		RewriteCond %{REQUEST_FILENAME} -f
+		RewriteRule (^|.*/)\.(git|svn)/.* - [F]
+	</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType text/css "access 1 month"
+ExpiresByType text/html "access 1 month"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType text/x-javascript "access 1 month"
+ExpiresByType application/x-javascript "access 1 month"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 1 month"
+</IfModule>
+## EXPIRES CACHING ##
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#Solution using mod_headers and mod_setenvif
+
+	<IfModule mod_headers.c>
+	       SetEnvIf Origin (.*) AccessControlAllowOrigin=$1
+	       Header add Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
+	       Header set Access-Control-Allow-Credentials true
+	</IfModule>
+
+# BEGIN W3TC Browser Cache
+<IfModule mod_mime.c>
+    AddType text/css .css
+    AddType text/x-component .htc
+    AddType application/x-javascript .js
+    AddType application/javascript .js2
+    AddType text/javascript .js3
+    AddType text/x-js .js4
+    AddType text/html .html .htm
+    AddType text/richtext .rtf .rtx
+    AddType image/svg+xml .svg
+    AddType text/plain .txt
+    AddType text/xsd .xsd
+    AddType text/xsl .xsl
+    AddType text/xml .xml
+    AddType video/asf .asf .asx .wax .wmv .wmx
+    AddType video/avi .avi
+    AddType image/bmp .bmp
+    AddType application/java .class
+    AddType video/divx .divx
+    AddType application/msword .doc .docx
+    AddType application/vnd.ms-fontobject .eot
+    AddType application/x-msdownload .exe
+    AddType image/gif .gif
+    AddType application/x-gzip .gz .gzip
+    AddType image/x-icon .ico
+    AddType image/jpeg .jpg .jpeg .jpe
+    AddType image/webp .webp
+    AddType application/json .json
+    AddType application/vnd.ms-access .mdb
+    AddType audio/midi .mid .midi
+    AddType video/quicktime .mov .qt
+    AddType audio/mpeg .mp3 .m4a
+    AddType video/mp4 .mp4 .m4v
+    AddType video/mpeg .mpeg .mpg .mpe
+    AddType application/vnd.ms-project .mpp
+    AddType application/x-font-otf .otf
+    AddType application/vnd.ms-opentype ._otf
+    AddType application/vnd.oasis.opendocument.database .odb
+    AddType application/vnd.oasis.opendocument.chart .odc
+    AddType application/vnd.oasis.opendocument.formula .odf
+    AddType application/vnd.oasis.opendocument.graphics .odg
+    AddType application/vnd.oasis.opendocument.presentation .odp
+    AddType application/vnd.oasis.opendocument.spreadsheet .ods
+    AddType application/vnd.oasis.opendocument.text .odt
+    AddType audio/ogg .ogg
+    AddType application/pdf .pdf
+    AddType image/png .png
+    AddType application/vnd.ms-powerpoint .pot .pps .ppt .pptx
+    AddType audio/x-realaudio .ra .ram
+    AddType image/svg+xml .svg .svgz
+    AddType application/x-shockwave-flash .swf
+    AddType application/x-tar .tar
+    AddType image/tiff .tif .tiff
+    AddType application/x-font-ttf .ttf .ttc
+    AddType application/vnd.ms-opentype ._ttf
+    AddType audio/wav .wav
+    AddType audio/wma .wma
+    AddType application/vnd.ms-write .wri
+    AddType application/font-woff .woff
+    AddType application/font-woff2 .woff2
+    AddType application/vnd.ms-excel .xla .xls .xlsx .xlt .xlw
+    AddType application/zip .zip
+</IfModule>
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css A31536000
+    ExpiresByType text/x-component A31536000
+    ExpiresByType application/x-javascript A31536000
+    ExpiresByType application/javascript A31536000
+    ExpiresByType text/javascript A31536000
+    ExpiresByType text/x-js A31536000
+    ExpiresByType text/html A3600
+    ExpiresByType text/richtext A3600
+    ExpiresByType image/svg+xml A3600
+    ExpiresByType text/plain A3600
+    ExpiresByType text/xsd A3600
+    ExpiresByType text/xsl A3600
+    ExpiresByType text/xml A3600
+    ExpiresByType video/asf A31536000
+    ExpiresByType video/avi A31536000
+    ExpiresByType image/bmp A31536000
+    ExpiresByType application/java A31536000
+    ExpiresByType video/divx A31536000
+    ExpiresByType application/msword A31536000
+    ExpiresByType application/vnd.ms-fontobject A31536000
+    ExpiresByType application/x-msdownload A31536000
+    ExpiresByType image/gif A31536000
+    ExpiresByType application/x-gzip A31536000
+    ExpiresByType image/x-icon A31536000
+    ExpiresByType image/jpeg A31536000
+    ExpiresByType image/webp A31536000
+    ExpiresByType application/json A31536000
+    ExpiresByType application/vnd.ms-access A31536000
+    ExpiresByType audio/midi A31536000
+    ExpiresByType video/quicktime A31536000
+    ExpiresByType audio/mpeg A31536000
+    ExpiresByType video/mp4 A31536000
+    ExpiresByType video/mpeg A31536000
+    ExpiresByType application/vnd.ms-project A31536000
+    ExpiresByType application/x-font-otf A31536000
+    ExpiresByType application/vnd.ms-opentype A31536000
+    ExpiresByType application/vnd.oasis.opendocument.database A31536000
+    ExpiresByType application/vnd.oasis.opendocument.chart A31536000
+    ExpiresByType application/vnd.oasis.opendocument.formula A31536000
+    ExpiresByType application/vnd.oasis.opendocument.graphics A31536000
+    ExpiresByType application/vnd.oasis.opendocument.presentation A31536000
+    ExpiresByType application/vnd.oasis.opendocument.spreadsheet A31536000
+    ExpiresByType application/vnd.oasis.opendocument.text A31536000
+    ExpiresByType audio/ogg A31536000
+    ExpiresByType application/pdf A31536000
+    ExpiresByType image/png A31536000
+    ExpiresByType application/vnd.ms-powerpoint A31536000
+    ExpiresByType audio/x-realaudio A31536000
+    ExpiresByType image/svg+xml A31536000
+    ExpiresByType application/x-shockwave-flash A31536000
+    ExpiresByType application/x-tar A31536000
+    ExpiresByType image/tiff A31536000
+    ExpiresByType application/x-font-ttf A31536000
+    ExpiresByType application/vnd.ms-opentype A31536000
+    ExpiresByType audio/wav A31536000
+    ExpiresByType audio/wma A31536000
+    ExpiresByType application/vnd.ms-write A31536000
+    ExpiresByType application/font-woff A31536000
+    ExpiresByType application/font-woff2 A31536000
+    ExpiresByType application/vnd.ms-excel A31536000
+    ExpiresByType application/zip A31536000
+</IfModule>
+<IfModule mod_deflate.c>
+        AddOutputFilterByType DEFLATE text/css text/x-component application/x-javascript application/javascript text/javascript text/x-js text/html text/richtext image/svg+xml text/plain text/xsd text/xsl text/xml image/bmp application/java application/msword application/vnd.ms-fontobject application/x-msdownload image/x-icon image/webp application/json application/vnd.ms-access application/vnd.ms-project application/x-font-otf application/vnd.ms-opentype application/vnd.oasis.opendocument.database application/vnd.oasis.opendocument.chart application/vnd.oasis.opendocument.formula application/vnd.oasis.opendocument.graphics application/vnd.oasis.opendocument.presentation application/vnd.oasis.opendocument.spreadsheet application/vnd.oasis.opendocument.text audio/ogg application/pdf application/vnd.ms-powerpoint image/svg+xml application/x-shockwave-flash image/tiff application/x-font-ttf application/vnd.ms-opentype audio/wav application/vnd.ms-write application/font-woff application/font-woff2 application/vnd.ms-excel
+    <IfModule mod_mime.c>
+        # DEFLATE by extension
+        AddOutputFilter DEFLATE js css htm html xml
+    </IfModule>
+</IfModule>
+<FilesMatch "\.(css|htc|less|js|js2|js3|js4|CSS|HTC|LESS|JS|JS2|JS3|JS4)$">
+    FileETag MTime Size
+    <IfModule mod_headers.c>
+        Header set Pragma "public"
+        Header append Cache-Control "public"
+         Header unset Set-Cookie
+         Header set X-Powered-By "W3 Total Cache/0.9.7"
+    </IfModule>
+</FilesMatch>
+<FilesMatch "\.(html|htm|rtf|rtx|svg|txt|xsd|xsl|xml|HTML|HTM|RTF|RTX|SVG|TXT|XSD|XSL|XML)$">
+    FileETag MTime Size
+    <IfModule mod_headers.c>
+        Header append Vary User-Agent env=!dont-vary
+        Header set Pragma "public"
+        Header append Cache-Control "public"
+         Header set X-Powered-By "W3 Total Cache/0.9.7"
+    </IfModule>
+</FilesMatch>
+<FilesMatch "\.(asf|asx|wax|wmv|wmx|avi|bmp|class|divx|doc|docx|eot|exe|gif|gz|gzip|ico|jpg|jpeg|jpe|webp|json|mdb|mid|midi|mov|qt|mp3|m4a|mp4|m4v|mpeg|mpg|mpe|mpp|otf|_otf|odb|odc|odf|odg|odp|ods|odt|ogg|pdf|png|pot|pps|ppt|pptx|ra|ram|svg|svgz|swf|tar|tif|tiff|ttf|ttc|_ttf|wav|wma|wri|woff|woff2|xla|xls|xlsx|xlt|xlw|zip|ASF|ASX|WAX|WMV|WMX|AVI|BMP|CLASS|DIVX|DOC|DOCX|EOT|EXE|GIF|GZ|GZIP|ICO|JPG|JPEG|JPE|WEBP|JSON|MDB|MID|MIDI|MOV|QT|MP3|M4A|MP4|M4V|MPEG|MPG|MPE|MPP|OTF|_OTF|ODB|ODC|ODF|ODG|ODP|ODS|ODT|OGG|PDF|PNG|POT|PPS|PPT|PPTX|RA|RAM|SVG|SVGZ|SWF|TAR|TIF|TIFF|TTF|TTC|_TTF|WAV|WMA|WRI|WOFF|WOFF2|XLA|XLS|XLSX|XLT|XLW|ZIP)$">
+    FileETag MTime Size
+    <IfModule mod_headers.c>
+        Header set Pragma "public"
+        Header append Cache-Control "public"
+         Header unset Set-Cookie
+         Header set X-Powered-By "W3 Total Cache/0.9.7"
+    </IfModule>
+</FilesMatch>
+<FilesMatch "\.(bmp|class|doc|docx|eot|exe|ico|webp|json|mdb|mpp|otf|_otf|odb|odc|odf|odg|odp|ods|odt|ogg|pdf|pot|pps|ppt|pptx|svg|svgz|swf|tif|tiff|ttf|ttc|_ttf|wav|wri|woff|woff2|xla|xls|xlsx|xlt|xlw|BMP|CLASS|DOC|DOCX|EOT|EXE|ICO|WEBP|JSON|MDB|MPP|OTF|_OTF|ODB|ODC|ODF|ODG|ODP|ODS|ODT|OGG|PDF|POT|PPS|PPT|PPTX|SVG|SVGZ|SWF|TIF|TIFF|TTF|TTC|_TTF|WAV|WRI|WOFF|WOFF2|XLA|XLS|XLSX|XLT|XLW)$">
+    <IfModule mod_headers.c>
+         Header unset Last-Modified
+    </IfModule>
+</FilesMatch>
+<IfModule mod_headers.c>
+    Header set Referrer-Policy ""
+</IfModule>
+# END W3TC Browser Cache
+# BEGIN W3TC Page Cache core
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteCond %{HTTPS} =on
+    RewriteRule .* - [E=W3TC_SSL:_ssl]
+    RewriteCond %{SERVER_PORT} =443
+    RewriteRule .* - [E=W3TC_SSL:_ssl]
+    RewriteCond %{HTTP:X-Forwarded-Proto} =https [NC]
+    RewriteRule .* - [E=W3TC_SSL:_ssl]
+    RewriteCond %{HTTP:Accept-Encoding} gzip
+    RewriteRule .* - [E=W3TC_ENC:_gzip]
+    RewriteCond %{HTTP_COOKIE} w3tc_preview [NC]
+    RewriteRule .* - [E=W3TC_PREVIEW:_preview]
+    RewriteCond %{REQUEST_METHOD} !=POST
+    RewriteCond %{QUERY_STRING} =""
+    RewriteCond %{REQUEST_URI} \/$
+    RewriteCond %{HTTP_COOKIE} !(comment_author|wp\-postpass|w3tc_logged_out|wordpress_logged_in|wptouch_switch_toggle) [NC]
+    RewriteCond %{HTTP_USER_AGENT} !(iPhone|iPod|Android|BB10|BlackBerry|webOS|IEMobile/7\.0|IEMobile/9\.0|IEMobile/10\.0|MSIE\ 10\.0|iPad|PlayBook|Xoom\ |P160U|SCH\-I800|Nexus\ 7|Touch) [NC]
+    RewriteCond "%{DOCUMENT_ROOT}/wp-content/cache/page_enhanced/%{HTTP_HOST}/%{REQUEST_URI}/_index%{ENV:W3TC_SSL}%{ENV:W3TC_PREVIEW}.html%{ENV:W3TC_ENC}" -f
+    RewriteRule .* "/wp-content/cache/page_enhanced/%{HTTP_HOST}/%{REQUEST_URI}/_index%{ENV:W3TC_SSL}%{ENV:W3TC_PREVIEW}.html%{ENV:W3TC_ENC}" [L]
+    RewriteCond %{REQUEST_METHOD} !=POST
+    RewriteCond %{QUERY_STRING} =""
+    RewriteCond %{REQUEST_URI} \/$
+    RewriteCond %{HTTP_COOKIE} !(comment_author|wp\-postpass|w3tc_logged_out|wordpress_logged_in|wptouch_switch_toggle) [NC]
+    RewriteCond %{HTTP_USER_AGENT} !(iPhone|iPod|Android|BB10|BlackBerry|webOS|IEMobile/7\.0|IEMobile/9\.0|IEMobile/10\.0|MSIE\ 10\.0|iPad|PlayBook|Xoom\ |P160U|SCH\-I800|Nexus\ 7|Touch) [NC]
+    RewriteCond "%{DOCUMENT_ROOT}/wp-content/cache/page_enhanced/%{HTTP_HOST}/%{REQUEST_URI}/_index%{ENV:W3TC_SSL}%{ENV:W3TC_PREVIEW}.xml%{ENV:W3TC_ENC}" -f
+    RewriteRule .* "/wp-content/cache/page_enhanced/%{HTTP_HOST}/%{REQUEST_URI}/_index%{ENV:W3TC_SSL}%{ENV:W3TC_PREVIEW}.xml%{ENV:W3TC_ENC}" [L]
+</IfModule>
+# END W3TC Page Cache core
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

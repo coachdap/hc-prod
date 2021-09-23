@@ -1,0 +1,4 @@
+<?php exit(); /* For security reason. To avoid public user downloading below data! */?>
+"RecordID"	"Date"	"IP"	"Your Name"	"Email"	"Phone"	"School"	"Current Position"	"Years in Current Position"	"Years Coaching Overall"	"Best in Last 4"	"Typical Finish"	"Current Record"	"Obstacles"	"Opportunities"	"Strengths"	"Weaknesses"	"Family"	"Spirit"	"Self"	"Team"	"Students"	"Friends"	"Family"	"Spirit"	"Self"	"Team"	"Students"	"Friends"	"MOnth2"	"Month1"	"Day1"	"Day2"	"Time1"	"Time2"	"Multiple Choice"
+"20180302-d2a1"	"2018-03-02 19:41:06"	"108.162.237.188"	"Bob Huggins"	"BigBob@Huggybaby.edu"	"18002839292"	"West Virginia"	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	"January"	"January"	"Monday"	"Monday"	""	""	""
+"20180314-1d44"	"2018-03-14 11:23:39"	"108.162.238.189"	"Bryan Bagwell"	"bwobagwell@gmail.com"	"919-795-9673"	"Nowhere"	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	"January"	"January"	"Monday"	"Monday"	""	""	""

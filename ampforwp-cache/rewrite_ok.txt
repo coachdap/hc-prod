@@ -1,0 +1,1 @@
+This is a test file from rewrite rules,please do not to remove it.

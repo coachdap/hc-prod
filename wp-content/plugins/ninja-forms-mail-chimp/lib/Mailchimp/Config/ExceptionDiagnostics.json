@@ -1,0 +1,28 @@
+[
+    {
+        "exceptionStringMatch": "401: API Key Invalid",
+        "context": "default",
+        "diagnostic": [
+            "The API key used to make the request collection is invalid",
+            "Check the API key value used to ensure it matches your Mailchimp account value"
+        ]
+    }, {
+        "exceptionStringMatch": "404: Resource Not Found",
+        "context": "default",
+        "diagnostic": [
+            "The list Id you are trying to retrieve does not exist.",
+            "1. Please refresh your lists from your settings",
+            "2. Click on one of the available lists"
+        ]
+    } ,
+    {
+        "exceptionStringMatch": "404: Resource Not Found",
+        "context": "GetInterests",
+        "diagnostic": [
+            "The Interest Category Id or List Id used is incorrect.",
+            "1. Please check that the Interest Category in your Mailchimp account is still valid",
+            "2. Refresh your lists from your settings",
+            "3. Click on the appropriate list to retrieve the list's details"
+        ]
+    } 
+]

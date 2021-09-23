@@ -1,0 +1,9 @@
+{
+	"name": "fatcatapps/pricing-table-blocks",
+	"title": "Pricing Table Blocks",
+	"category": "widgets",
+	"description": "Create a Beautiful, Responsive and Highly Converting Pricing Table in Less Than 5 Minutes",
+	"textdomain": "pricing-table-blocks",
+	"editorScript": "file:./includes/block.js",
+	"style": "file:./includes/layouts/block-layout2.css"
+}

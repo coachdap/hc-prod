@@ -1,0 +1,20 @@
+{
+    "name": "ninja-forms/ninja-forms-mailchimp",
+    "description": "Sign up users for your Mailchimp newsletter when submitting Ninja Forms",
+    "minimum-stability": "dev",
+    "scripts": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "NFMailchimp\\NinjaForms\\Mailchimp\\": "src/",
+            "NFMailchimp\\EmailCRM\\": "lib/"
+        }
+    },
+    "require-dev": {
+
+    },
+    "require": {
+        "thinkshout/mailchimp-api-php": "^2.0.0"
+    }
+}
